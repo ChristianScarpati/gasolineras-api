@@ -8,23 +8,22 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class GasStation {
-    
+
     private String id;
     private String name;
     private String address;
     private String brand;
 
     // coordinates to calcualte x and y
-    private double latitude;
-    private double longitude;
+    private Double latitude;
+    private Double longitude;
 
-    //prices
-    private double priceDiesel;
-    private double priceGasoline95;
-    private double priceGasoline98;
+    // prices
+    private Double priceDiesel;
+    private Double priceGasoline95;
+    private Double priceGasoline98;
 
     // it doesnt come from the API
-    private double DistanceKm;
-
+    private Double distanceKm;
 
 }
